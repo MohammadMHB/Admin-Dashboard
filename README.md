@@ -75,8 +75,8 @@ src/
 ### Clone the repository
 
 ```bash
-git clone https://github.com/MohammadMHB/admin-dashboard-.git
-cd admin-dashboard-
+git clone https://github.com/MohammadMHB/Admin-Dashboard.git
+cd Admin-Dashboard
 ```
 
 ### Install dependencies
