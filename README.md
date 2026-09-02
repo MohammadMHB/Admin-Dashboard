@@ -1,18 +1,121 @@
-# React + Vite
+# Admin Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive administration dashboard built with React and Tailwind CSS. The project focuses on reusable UI, dashboard architecture, data visualization, and common admin workflows.
 
-Currently, two official plugins are available:
+## Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This project is a frontend dashboard designed around the needs of modern web applications. It combines operational pages, productivity tools, charts, navigation patterns, and responsive layouts in a single interface.
 
-## React Compiler
+## Features
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+### Dashboard & Management
+- Overview dashboard
+- Orders management interface
+- Employee management interface
+- Customer management interface
+- Responsive sidebar navigation
+- Responsive navbar and footer
+- Settings access point
 
-Note: This will impact Vite dev & build performances.
+### Productivity Apps
+- Rich text editor interface
+- Calendar
+- Kanban board
+- Color picker
 
-## Expanding the ESLint configuration
+### Data Visualization
+- Line charts
+- Area charts
+- Bar charts
+- Pie charts
+- Financial charts
+- Color mapping visualization
+- Pyramid charts
+- Stacked charts
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Tech Stack
+
+| Category | Technologies |
+| --- | --- |
+| Framework | React 19 |
+| Build Tool | Vite |
+| Styling | Tailwind CSS 4 |
+| Routing | React Router 7 |
+| Charts | Recharts 3 |
+| Icons | Lucide React, React Icons |
+| Testing | Vitest, React Testing Library, User Event |
+| Code Quality | ESLint |
+
+## Architecture Highlights
+
+- Component-based React architecture
+- Reusable dashboard components
+- Context-based sidebar state management
+- Route-oriented page structure
+- Reusable chart components
+- Responsive navigation patterns
+- Centralized page exports
+- Automated frontend testing setup
+
+## Project Structure
+
+```text
+src/
+├── components/      # Shared UI and layout components
+├── contexts/        # React contexts and application state
+├── pages/           # Dashboard, apps, and chart pages
+│   ├── Apps/
+│   └── Charts/
+├── App.jsx
+└── main.jsx
+```
+
+## Getting Started
+
+### Clone the repository
+
+```bash
+git clone https://github.com/MohammadMHB/admin-dashboard-.git
+cd admin-dashboard-
+```
+
+### Install dependencies
+
+```bash
+npm install
+```
+
+### Start development server
+
+```bash
+npm run dev
+```
+
+### Build for production
+
+```bash
+npm run build
+```
+
+### Run tests
+
+```bash
+npm run test
+```
+
+### Run linting
+
+```bash
+npm run lint
+```
+
+## What This Project Demonstrates
+
+This project demonstrates practical frontend skills in building a scalable admin interface: layout composition, responsive navigation, reusable components, routing, dashboard visualization, state management, and frontend testing.
+
+## Author
+
+**Mohammad Mohebianfar**  
+Full-Stack Developer — Django | React | Next.js
+
+GitHub: https://github.com/MohammadMHB
