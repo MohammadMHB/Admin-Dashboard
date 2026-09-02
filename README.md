@@ -1,6 +1,8 @@
 # Admin Dashboard
 
-A modern, responsive administration dashboard built with React and Tailwind CSS. The project focuses on reusable UI, dashboard architecture, data visualization, and common admin workflows.
+A modern, responsive administration dashboard built with React and Tailwind CSS. The project focuses on reusable UI, dashboard architecture, data visualization, testing, and common admin workflows.
+
+[![CI](https://github.com/MohammadMHB/Admin-Dashboard/actions/workflows/ci.yml/badge.svg)](https://github.com/MohammadMHB/Admin-Dashboard/actions/workflows/ci.yml)
 
 ## Overview
 
@@ -45,6 +47,7 @@ This project is a frontend dashboard designed around the needs of modern web app
 | Icons | Lucide React, React Icons |
 | Testing | Vitest, React Testing Library, User Event |
 | Code Quality | ESLint |
+| CI | GitHub Actions |
 
 ## Architecture Highlights
 
@@ -55,7 +58,7 @@ This project is a frontend dashboard designed around the needs of modern web app
 - Reusable chart components
 - Responsive navigation patterns
 - Centralized page exports
-- Automated frontend testing setup
+- Automated linting, testing, and production builds through GitHub Actions
 
 ## Project Structure
 
@@ -109,9 +112,18 @@ npm run test
 npm run lint
 ```
 
+## Continuous Integration
+
+Every push to `main` and every pull request targeting `main` runs:
+
+1. Dependency installation with `npm ci`
+2. ESLint checks
+3. Vitest test suite
+4. Production build verification
+
 ## What This Project Demonstrates
 
-This project demonstrates practical frontend skills in building a scalable admin interface: layout composition, responsive navigation, reusable components, routing, dashboard visualization, state management, and frontend testing.
+This project demonstrates practical frontend skills in building a scalable admin interface: layout composition, responsive navigation, reusable components, routing, dashboard visualization, state management, automated testing, and CI workflows.
 
 ## Author
 
